@@ -2,7 +2,7 @@
 
 faceit_test is simple application for ios and android. The app was written with react-native, styled-components and redux/RTK query (These technologies were required by specification from interviewer).
 
-Of course there are a lot of weakness in the code and I know about them, for example:
+Of course there are some weaknesses in the code and I know about them, for example:
 
 1. On Post screen there is http request to get a post. It would be better to check cache and if there is no the post then request it from server;
 2. On Post screen there is Flatlist to render posts, but it would be better to use SectionList and use ListFooterComponent to show loader when we load more data (onEndReached);
